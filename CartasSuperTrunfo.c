@@ -41,8 +41,9 @@ int main() {
     scanf(" %d", &pontostur1);
 
     //Calculando densidade poplacionar e PIB per capita
-    pibcapita1 = (float) pib1/populacao1;
     densidade1 = (float) populacao1/area1;
+    pibcapita1 = (float) pib1/populacao1;
+   
         
 
     // Apresentando primeira carta
