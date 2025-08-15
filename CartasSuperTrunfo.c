@@ -42,7 +42,7 @@ int main() {
 
     //Calculando densidade poplacionar e PIB per capita
     densidade1 = (float) populacao1/area1;
-    pibcapita1 = (float) (pib1*10000000000)/populacao1;
+    pibcapita1 = (float) (pib1*1e9f)/populacao1;
 
 
     // Apresentando primeira carta
@@ -85,7 +85,7 @@ int main() {
 
      //Calculando densidade poplacionar e PIB per capita
     densidade2 = (float) populacao2/area2;
-    pibcapita2 = (float) (pib2*10000000000)/populacao2;
+    pibcapita2 = (float) (pib2*1e9f)/populacao2;
 
     // Apresentando segunda carta
     printf("\n\nOtimo. Sua segunda carta é!\n\n");
