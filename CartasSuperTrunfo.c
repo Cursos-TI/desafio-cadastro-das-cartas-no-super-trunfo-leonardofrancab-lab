@@ -9,7 +9,8 @@ int main() {
     // Declaracao de variaveis
     char estado1, estado2;
     char codigo1[20], cidade1[20], codigo2[20], cidade2[20];
-    int populacao1, pontostur1, populacao2, pontostur2;
+    int  pontostur1, pontostur2;
+    int populacao1, populacao2;
     float area1, pib1, area2, pib2;
 
     //Apresentacao
@@ -28,7 +29,7 @@ int main() {
     scanf(" %30[^\n]", cidade1);
 
     printf("Digite a População da Cidade: ");
-    scanf(" %d", &populacao1);
+    scanf(" %lu", &populacao1);
 
     printf("Digite a Área da Cidade: ");
     scanf(" %f", &area1);
@@ -45,7 +46,7 @@ int main() {
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
-    printf("Polpulação: %d\n", populacao1);
+    printf("Polpulação: %lu\n", populacao1);
     printf("Área: %.2f\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turisticos: %d\n", pontostur1);
@@ -63,7 +64,7 @@ int main() {
     scanf(" %30[^\n]", cidade2);
 
     printf("Digite a População da Cidade: ");
-    scanf(" %d", &populacao2);
+    scanf(" %lu", &populacao2);
 
     printf("Digite a Área da Cidade: ");
     scanf(" %f", &area2);
@@ -80,7 +81,7 @@ int main() {
     printf("Estado: %c\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
-    printf("Polpulação: %d\n", populacao2);
+    printf("Polpulação: %lu\n", populacao2);
     printf("Área: %.2f\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turisticos: %d\n", pontostur2);
